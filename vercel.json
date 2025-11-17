@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
-  "buildCommand": "pnpm build:vercel",
+  "buildCommand": "NODE_ENV=dev pnpm build:vercel",
   "installCommand": "pnpm install",
   "framework": null,
   "functions": {
@@ -17,7 +17,6 @@
     }
   ],
   "env": {
-    "NODE_ENV": "production",
     "PUPPETEER_SKIP_DOWNLOAD": "1",
     "CACHE_TYPE": "memory"
   },
