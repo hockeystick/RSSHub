@@ -1,0 +1,54 @@
+# IDE and editor files
+.DS_Store
+.idea
+.vscode
+.cursorrules
+.windsurfrules
+Session.vim
+*.swp
+*.iml
+
+# Development and testing
+coverage
+.eslintcache
+.roomodes
+memory-bank/
+app-minimal/
+
+# Documentation
+docs
+README*.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+
+# Git files
+.git
+.github
+.gitignore
+.gitattributes
+
+# Logs
+*.log
+combined.log
+error.log
+npm-debug.log
+yarn-error.log
+dump.rdb
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Other build outputs and caches
+tmp
+.now
+.yarn
+.yarnrc.yml
+.pnp*
+assets/build/
+
+# Lock files (Vercel will generate its own)
+package-lock.json
+yarn.lock
+yarn-error.log
